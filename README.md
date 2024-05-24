@@ -100,6 +100,7 @@ OR
 
 `conda install -c conda-forge labstreaminglayer/tap/lsl`
 
+THEN
 
 `pip install -e .'[muse]'`
 
