@@ -1,4 +1,9 @@
-### Quick, EZ operation
+### Quick & EZ operation for connecting your Muse to an OSC Output
+
+Connecting a Muse device to your computer is a mess, with LSL libraries being out of date, impractical and unstable. This repo aims to simplify that with a streamlined python script.  This allows you to stream raw or processed EEG data to an OSC port of your choice. 
+
+
+Simply run : 
 
 `python __muse_monitor.py__ --EZ --osc`
 
@@ -89,7 +94,7 @@ install the extra dependencies needed:
 
 # Muse device
 
-`brew install labstreaminglayer/tap/lsl`
+`brew install labstreaminglayer/tap/lsl`  OR `conda install -c conda-forge labstreaminglayer/tap/lsl`
 `pip install -e .'[muse]'`
 
 # Known issues
