@@ -94,7 +94,10 @@ install the extra dependencies needed:
 
 # Muse device
 
-`brew install labstreaminglayer/tap/lsl`  OR `conda install -c conda-forge labstreaminglayer/tap/lsl`
+`brew install labstreaminglayer/tap/lsl` 
+OR 
+`conda install -c conda-forge labstreaminglayer/tap/lsl`
+
 `pip install -e .'[muse]'`
 
 # Known issues
